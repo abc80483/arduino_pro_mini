@@ -345,19 +345,6 @@ RAW
 Wire Wire Line
 	2650 2500 2750 2500
 Connection ~ 2750 2500
-$Comp
-L Jumper:SolderJumper_2_Bridged JP1
-U 1 1 6071A14D
-P 4600 2500
-F 0 "JP1" H 4600 2705 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 4600 2614 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 4600 2500 50  0001 C CNN
-F 3 "~" H 4600 2500 50  0001 C CNN
-	1    4600 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 2500 4450 2500
 Connection ~ 4200 2500
 $Comp
 L Device:C C2
@@ -372,8 +359,6 @@ F 3 "~" H 5000 2900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5000 2750 5000 2500
-Wire Wire Line
-	4750 2500 5000 2500
 $Comp
 L power:VCC #PWR04
 U 1 1 6072220D
@@ -728,4 +713,6 @@ Text GLabel 9500 4250 2    50   UnSpc ~ 0
 RESET
 Wire Wire Line
 	9050 4250 9500 4250
+Wire Wire Line
+	4200 2500 5000 2500
 $EndSCHEMATC
