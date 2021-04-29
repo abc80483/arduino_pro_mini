@@ -1,6 +1,41 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Generic_Conn_01x10
+#
+DEF Connector_Generic_Conn_01x10 J 0 40 Y N 1 F N
+F0 "J" 0 500 50 H V C CNN
+F1 "Connector_Generic_Conn_01x10" 0 -600 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 450 50 -550 1 1 10 f
+X Pin_1 1 -200 400 150 R 50 50 1 1 P
+X Pin_10 10 -200 -500 150 R 50 50 1 1 P
+X Pin_2 2 -200 300 150 R 50 50 1 1 P
+X Pin_3 3 -200 200 150 R 50 50 1 1 P
+X Pin_4 4 -200 100 150 R 50 50 1 1 P
+X Pin_5 5 -200 0 150 R 50 50 1 1 P
+X Pin_6 6 -200 -100 150 R 50 50 1 1 P
+X Pin_7 7 -200 -200 150 R 50 50 1 1 P
+X Pin_8 8 -200 -300 150 R 50 50 1 1 P
+X Pin_9 9 -200 -400 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_Conn_02x03_Odd_Even
 #
 DEF Connector_Generic_Conn_02x03_Odd_Even J 0 40 Y N 1 F N
@@ -127,42 +162,6 @@ P 2 0 1 0 -10 40 -10 -40 N
 P 2 0 1 0 10 40 10 -40 N
 X A 1 -150 0 100 R 50 50 1 1 P
 X B 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# KiCadLibs_SparkFun-Kicad-Libraries-master_SparkFun-KiCad-Libraries-master_Libraries_SparkFun-Connectors_CONN_12
-#
-DEF KiCadLibs_SparkFun-Kicad-Libraries-master_SparkFun-KiCad-Libraries-master_Libraries_SparkFun-Connectors_CONN_12 J 0 40 N Y 1 L N
-F0 "J" -250 1200 45 H V L BNN
-F1 "KiCadLibs_SparkFun-Kicad-Libraries-master_SparkFun-KiCad-Libraries-master_Libraries_SparkFun-Connectors_CONN_12" -250 -150 45 H V L BNN
-F2 "1X12" 0 1300 20 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "XXX-00000" 0 1350 60 H V C CNN
-$FPLIST
- *1X12*
- *1X12_NO_SILK_KIT*
- *1X12_LOCK*
- *1X12_LOCK_LONGPADS*
- *1X12_LOCK_NO_SILK*
- *1X12_LONGPADS*
- *1X12_MACHINE-PIN-HEADER_LOCK.004*
- *1X12_NO_SILK*
- *1X12_HOLES_ONLY*
-$ENDFPLIST
-DRAW
-S 0 -50 -250 1150 0 1 0 f
-X 1 1 100 0 100 L 40 40 1 1 P
-X 10 10 100 900 100 L 40 40 1 1 P
-X 11 11 100 1000 100 L 40 40 1 1 P
-X 12 12 100 1100 100 L 40 40 1 1 P
-X 2 2 100 100 100 L 40 40 1 1 P
-X 3 3 100 200 100 L 40 40 1 1 P
-X 4 4 100 300 100 L 40 40 1 1 P
-X 5 5 100 400 100 L 40 40 1 1 P
-X 6 6 100 500 100 L 40 40 1 1 P
-X 7 7 100 600 100 L 40 40 1 1 P
-X 8 8 100 700 100 L 40 40 1 1 P
-X 9 9 100 800 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
